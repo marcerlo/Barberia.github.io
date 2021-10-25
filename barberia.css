@@ -1,0 +1,323 @@
+*{
+padding:0;
+margin:0;
+}
+html{
+
+scroll-behavior: smooth;
+
+}
+header{
+
+width:100%;
+height:50px;
+/* --esto es para lo efecto de sombra siempre se usa 4 propiedades-- */
+box-shadow:1px 1px 5px #000;
+/* --es para que el menu este posicione en toda la pagina-- */
+position: fixed;
+background-color: #000;
+
+
+}
+.header-menu{
+/* -- para centarel menu-- */
+width:450px;
+padding-top:15px;
+margin:auto;
+
+}
+.menu__item{
+
+color:#f5f6fa;
+/* ---quitarle el line azul de <a>-- */
+text-decoration:none;
+/* --para editar el texto-- */
+font: bold 20px Impact;
+/* --es para separar la letras--- */
+padding:10px 30px 10px 30px;
+
+}
+
+.menu__item:hover{
+
+
+
+color:#57606f;
+justify-content: center;
+
+}
+.banner{
+
+background-image:url(img/FondoA1.jpg);
+background-attachment: fixed;
+width: 100%;
+height:690px;
+
+
+
+
+}
+.banner__img{
+margin-left: 500px;
+width:300px;
+}
+.banner-context{
+
+    padding-top:100px;
+}
+
+.banner__titulo{
+
+
+font: bold 40px Impact;
+color: #f5f6fa;
+text-align: center;
+
+}
+.banner__texto{
+
+    font: bold 35px Impact;
+    color: #f5f6fa;
+    text-align: center;
+
+}
+
+.section-contex{
+
+width:100%;
+height: 600px;
+background:#000;
+}
+.section__title{
+
+    color: #f5f6fa;
+    text-align: center;
+    padding-top: 32px;
+    font-family: "Impact";
+
+
+    
+}
+.conteiner__img img{
+
+    margin-left: 135px;
+    margin-top:55px;
+    border: 9px double #ffffff;
+    border-radius: 25px;
+      
+}
+.section__estilos--h2{
+text-align: center;
+font: bold 40px impact;
+color:#000;
+}
+
+/* -----para whatsapp--------------- */
+
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 60px;
+    bottom:25px;
+    right:25px;
+    background:#000;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: rgb(102, 141, 44);
+    color: white;
+}
+
+
+
+
+ /* height:290px;
+ background-color: rgba(31, 31, 31, 0.9);
+ opacity:0;
+
+}
+div.section__img:hover div.section__img--info{
+
+    opacity: 1;
+}
+
+#head{
+
+margin:auto;
+width:230px;
+text-align: center; */
+
+/* --esto es para la letra se deplase-- */
+/* transition: all 0.3s ease-in-out;
+padding-top:300px;
+font: 16px impact;
+color:#000;
+}
+
+div.section__img:hover #head{
+
+padding-top: 120px;
+
+}
+div.section__img--activate{
+
+background-image:url(../Barberia/img/BarA4.jpg);
+width:250px;
+height:290px;
+
+background-size: cover;
+} */ 
+
+@media(max-width:1164px) {
+    
+   
+    .banner__img{
+        margin-left:350px;
+        width:270px;
+        }
+        .banner__titulo{
+
+
+            font: bold 39px Impact;
+            color: #f5f6fa;
+            text-align: center;
+            
+            }
+            .banner__texto{
+            
+                font: bold 33px Impact;
+                color: #f5f6fa;
+                text-align: center;
+            
+            }
+            .conteiner__img img{
+
+                margin-left:60px;
+                margin-top:55px;
+                border: 9px double #ffffff;
+                border-radius: 25px;
+
+                width: 230px;
+                  
+            }
+
+
+
+
+}
+@media(max-width:878px) {
+    
+   
+    .banner__img{
+        margin-left:200px;
+        width:270px;
+        }
+
+
+        .banner__titulo{
+
+
+            font: bold 35px Impact;
+            color: #f5f6fa;
+            text-align: center;
+            
+            }
+            .banner__texto{
+            
+                font: bold 30px Impact;
+                color: #f5f6fa;
+                text-align: center;
+            
+            }
+            .conteiner__img img{
+
+                margin-left:30px;
+                margin-top:55px;
+                border: 9px double #ffffff;
+                border-radius: 25px;
+
+                width: 200px;
+                  
+            }
+
+}
+@media(max-width:698px) {
+    
+   
+    .banner__img{
+        margin-left: 98px;
+        width:250px;
+        }
+
+        .banner__titulo{
+
+
+            font: bold 30px Impact;
+            color: #f5f6fa;
+            text-align: center;
+            
+            }
+            .banner__texto{
+            
+                font: bold 29px Impact;
+                color: #f5f6fa;
+                text-align: center;
+            
+            }
+            .conteiner__img img{
+
+                margin-left:20px;
+                margin-top:55px;
+                border: 9px double #ffffff;
+                border-radius: 25px;
+
+                width: 150px;
+                  
+            }
+
+
+}
+@media(max-width:698px) {
+    
+   
+    .banner__img{
+        margin-left: 98px;
+        width:250px;
+        }
+
+        .banner__titulo{
+
+
+            font: bold 30px Impact;
+            color: #f5f6fa;
+            text-align: center;
+            
+            }
+            .banner__texto{
+            
+                font: bold 29px Impact;
+                color: #f5f6fa;
+                text-align: center;
+            
+            }
+            .conteiner__img img{
+
+                margin-left:20px;
+                margin-top:55px;
+                border: 9px double #ffffff;
+                border-radius: 25px;
+
+                width: 120px;
+                height: 190px;
+                  
+            }
+
+
+}
